@@ -1,3 +1,5 @@
+# Playing with % to try out his capabilities.
+
 def is_even(num):
     return num % 2 == 0
 
@@ -14,6 +16,6 @@ def split_names_into_rows(name_list, modulus=3):
     print()
 
 
-names = ["Arturo", "Marlene", "Bartolo", "Ernesto", "Aldo", "Alison"]
+names = ["Anna", "Graham", "Buck", "Rick", "Monty", "Marvin"]
 
 split_names_into_rows(names)

@@ -3,6 +3,7 @@
 # If there are numbers or special characters included in the string, they should be returned as they are. 
 # Only letters from the latin/english alphabet should be shifted, like in the original Rot13 "implementation".
 # Please note that using encode is considered cheating.
+
 import string
 
 def rot13(message):
@@ -21,5 +22,4 @@ def rot13(message):
 
 message = 'This is a test script.'
 
-# print(string.ascii_lowercase([1]))
 print(rot13(message))

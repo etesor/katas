@@ -1,3 +1,5 @@
+# Trying some graphics on python.
+
 import turtle
 import random
 
